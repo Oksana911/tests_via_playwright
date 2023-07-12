@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tests-via-playwright"
+version = "0.1.0"
+description = ""
+authors = ["Oksana <rosa111@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tests_via_playwright"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.35.0"
+psycopg2 = "^2.9.6"
+sqlalchemy = "^2.0.18"
+pytest = "^7.4.0"
+allure-pytest = "^2.13.2"
+slugify = "^0.0.1"
+requests = "^2.31.0"
+pydantic = "^2.0.2"
+pydantic-settings = "^2.0.1"
+beautifulsoup4 = "^4.12.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
